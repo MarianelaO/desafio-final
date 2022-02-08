@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/*Comienzo estilos del nav*/
+nav {
+    display: flex;
+    justify-content: center;
+    
+}
+.logo-nav {
+    width: 32px;
+    height: 32px;
+    
+    
+}
+ul {
+   
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+li{
+    list-style: none;
+    padding: 18px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+/*Fin estilos del nav*/
+
+/*Comienzo Estilos generales para fuentes*/
+
+h2{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    padding: 50px;
+    margin: 40px 120px;
+    border: 1px solid rgb(112, 83, 142);
+    justify-content: center;
+    
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+/*Fin Estilos generales para fuentes*/
+
+/*Comienzo Estilos seccion producto*/
+
+.scroll{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.item{
+    font-size: 24px;
+    
+}
+
+.plant{
+  width: 500px;
+  height: 500px;
+
+
+}
+
+/*Fin Estilos seccion producto*/
+
+/*Comienzo Estilos seccion conocenos*/
+.us {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.us-text {
+    padding: 50px;
+    margin: auto;
+    border: 1px solid rebeccapurple;
+    text-align: justify;
+    flex-direction: row;
+    margin: 20px;
+}
+.section-us{
+    width: 700px;
+    height: 700px;
+    display: flex;
+    padding: 50px;
+
+}
+/*Fin Estilos seccion conocenos*/
+/* Sección de tipo de servicio y productos que ofrece*/
+.tipos {
+    width: 400px;
+    height: 400px;
+}
+/*Fin  de seccion de tipo de servicio y productos que ofrece*/
+
+/*Comienzo Estilos footer*/
+footer {
+    width: 100%;
+    background-color: rgb(191, 149, 228);
+    display: flex;
+    justify-content: space-between;
+}
+.logo-potion {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: left;
+    padding: 50px;
+}
+.logo-footer {
+    width: 50px;
+    height: 50px;
+} 
+
+.redes {
+    justify-content: right;
+    flex-direction: column;
+    padding: 50px;
+    
+}
+
